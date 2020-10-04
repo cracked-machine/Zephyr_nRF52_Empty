@@ -1,0 +1,7 @@
+device NRF52
+speed 4000
+if SWD
+connect
+erase
+loadfile ./build/zephyr/zephyr.hex
+q

@@ -1,0 +1,6 @@
+osource "/mnt/sda/nRF_Connect_SDK/ncs/nrf/Kconfig.nrf"
+
+osource "/mnt/sda/nRF_Connect_SDK/ncs/bootloader/mcuboot/zephyr/Kconfig"
+
+osource "/mnt/sda/nRF_Connect_SDK/ncs/nrfxlib/Kconfig.nrfxlib"
+

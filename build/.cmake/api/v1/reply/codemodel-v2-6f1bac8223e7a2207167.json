@@ -1,0 +1,1519 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						15,
+						16,
+						23,
+						28,
+						41
+					]
+				},
+				{
+					"build" : "zephyr",
+					"childIndexes" : 
+					[
+						2,
+						8,
+						14,
+						18,
+						19,
+						32,
+						39,
+						55,
+						56,
+						57,
+						58,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr",
+					"targetIndexes" : 
+					[
+						11,
+						18,
+						21,
+						22,
+						24,
+						25,
+						26,
+						31,
+						35,
+						37,
+						38,
+						39,
+						40
+					]
+				},
+				{
+					"build" : "zephyr/arch",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/arch"
+				},
+				{
+					"build" : "zephyr/arch/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/arch/common",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "zephyr/arch/arch/arm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/arch/arm"
+				},
+				{
+					"build" : "zephyr/arch/arch/arm/core/aarch32",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/arch/arm/core/aarch32",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "zephyr/arch/arch/arm/core/aarch32/cortex_m",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/arch/arm/core/aarch32/cortex_m",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "zephyr/arch/arch/arm/core/aarch32/cortex_m/mpu",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/arch/arm/core/aarch32/cortex_m/mpu",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "zephyr/lib",
+					"childIndexes" : 
+					[
+						9,
+						11,
+						12,
+						13
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/lib"
+				},
+				{
+					"build" : "zephyr/lib/libc",
+					"childIndexes" : 
+					[
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/lib/libc"
+				},
+				{
+					"build" : "zephyr/lib/libc/minimal",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/lib/libc/minimal",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "zephyr/lib/posix",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/lib/posix",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "zephyr/lib/gui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/lib/gui"
+				},
+				{
+					"build" : "zephyr/lib/os",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/lib/os"
+				},
+				{
+					"build" : "zephyr/soc/arm",
+					"childIndexes" : 
+					[
+						15,
+						16
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/soc/arm"
+				},
+				{
+					"build" : "zephyr/soc/arm/common/cortex_m",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/soc/arm/common/cortex_m",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "zephyr/soc/arm/nordic_nrf",
+					"childIndexes" : 
+					[
+						17
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/soc/arm/nordic_nrf"
+				},
+				{
+					"build" : "zephyr/soc/arm/nordic_nrf/nrf52",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/soc/arm/nordic_nrf/nrf52",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "zephyr/boards",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/boards"
+				},
+				{
+					"build" : "zephyr/subsys",
+					"childIndexes" : 
+					[
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						28,
+						29,
+						30,
+						31
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys"
+				},
+				{
+					"build" : "zephyr/subsys/debug",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/debug"
+				},
+				{
+					"build" : "zephyr/subsys/logging",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/logging"
+				},
+				{
+					"build" : "zephyr/subsys/fs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/fs"
+				},
+				{
+					"build" : "zephyr/subsys/random",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/random"
+				},
+				{
+					"build" : "zephyr/subsys/storage",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/storage"
+				},
+				{
+					"build" : "zephyr/subsys/fb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/fb"
+				},
+				{
+					"build" : "zephyr/subsys/power",
+					"childIndexes" : 
+					[
+						27
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/power"
+				},
+				{
+					"build" : "zephyr/subsys/power/policy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 26,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/power/policy"
+				},
+				{
+					"build" : "zephyr/subsys/stats",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/stats"
+				},
+				{
+					"build" : "zephyr/subsys/testsuite",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/testsuite"
+				},
+				{
+					"build" : "zephyr/subsys/tracing",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/tracing"
+				},
+				{
+					"build" : "zephyr/subsys/canbus",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/subsys/canbus"
+				},
+				{
+					"build" : "zephyr/drivers",
+					"childIndexes" : 
+					[
+						33,
+						34,
+						35,
+						36,
+						37,
+						38
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/drivers"
+				},
+				{
+					"build" : "zephyr/drivers/console",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/drivers/console"
+				},
+				{
+					"build" : "zephyr/drivers/interrupt_controller",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/drivers/interrupt_controller"
+				},
+				{
+					"build" : "zephyr/drivers/clock_control",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/drivers/clock_control"
+				},
+				{
+					"build" : "zephyr/drivers/gpio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/drivers/gpio",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "zephyr/drivers/serial",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/drivers/serial",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "zephyr/drivers/timer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/drivers/timer"
+				},
+				{
+					"build" : "modules/nrf",
+					"childIndexes" : 
+					[
+						40,
+						41,
+						44,
+						45,
+						50,
+						54
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "modules/nrf/ext",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/ext"
+				},
+				{
+					"build" : "modules/nrf/lib",
+					"childIndexes" : 
+					[
+						42,
+						43
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/lib"
+				},
+				{
+					"build" : "modules/nrf/lib/bin",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 41,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/lib/bin"
+				},
+				{
+					"build" : "modules/nrf/lib/flash_patch",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 41,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/lib/flash_patch"
+				},
+				{
+					"build" : "modules/nrf/samples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/samples"
+				},
+				{
+					"build" : "modules/nrf/subsys",
+					"childIndexes" : 
+					[
+						46,
+						48,
+						49
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/subsys"
+				},
+				{
+					"build" : "modules/nrf/subsys/net",
+					"childIndexes" : 
+					[
+						47
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 45,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/subsys/net"
+				},
+				{
+					"build" : "modules/nrf/subsys/net/lib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 46,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/subsys/net/lib"
+				},
+				{
+					"build" : "modules/nrf/subsys/debug",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 45,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/subsys/debug"
+				},
+				{
+					"build" : "modules/nrf/subsys/partition_manager",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 45,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/subsys/partition_manager"
+				},
+				{
+					"build" : "modules/nrf/drivers",
+					"childIndexes" : 
+					[
+						51,
+						52,
+						53
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/drivers"
+				},
+				{
+					"build" : "modules/nrf/drivers/hw_cc310",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/drivers/hw_cc310"
+				},
+				{
+					"build" : "modules/nrf/drivers/entropy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/drivers/entropy"
+				},
+				{
+					"build" : "modules/nrf/drivers/gps",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/drivers/gps"
+				},
+				{
+					"build" : "modules/nrf/tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrf/tests"
+				},
+				{
+					"build" : "modules/mcuboot",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/bootloader/mcuboot/zephyr"
+				},
+				{
+					"build" : "modules/mcumgr",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/lib/mcumgr"
+				},
+				{
+					"build" : "modules/nrfxlib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/nrfxlib"
+				},
+				{
+					"build" : "modules/cmsis",
+					"childIndexes" : 
+					[
+						59
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/hal/cmsis"
+				},
+				{
+					"build" : "modules/cmsis/CMSIS",
+					"childIndexes" : 
+					[
+						60
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 58,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/hal/cmsis/CMSIS"
+				},
+				{
+					"build" : "modules/cmsis/CMSIS/Core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/hal/cmsis/CMSIS/Core"
+				},
+				{
+					"build" : "modules/canopennode",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/lib/canopennode"
+				},
+				{
+					"build" : "modules/civetweb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/lib/civetweb"
+				},
+				{
+					"build" : "modules/fatfs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/fs/fatfs"
+				},
+				{
+					"build" : "modules/nordic",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/hal/nordic",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "modules/st",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/hal/st"
+				},
+				{
+					"build" : "modules/libmetal",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/hal/libmetal"
+				},
+				{
+					"build" : "modules/lvgl",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/lib/gui/lvgl"
+				},
+				{
+					"build" : "modules/mbedtls",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/crypto/mbedtls"
+				},
+				{
+					"build" : "modules/open-amp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/lib/open-amp"
+				},
+				{
+					"build" : "modules/loramac-node",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/lib/loramac-node/zephyr"
+				},
+				{
+					"build" : "modules/openthread",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/lib/openthread/zephyr"
+				},
+				{
+					"build" : "modules/segger",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/debug/segger"
+				},
+				{
+					"build" : "modules/tinycbor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/lib/tinycbor/zephyr"
+				},
+				{
+					"build" : "modules/tinycrypt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/crypto/tinycrypt"
+				},
+				{
+					"build" : "modules/littlefs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/fs/littlefs"
+				},
+				{
+					"build" : "modules/mipi-sys-t",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/debug/mipi-sys-t"
+				},
+				{
+					"build" : "modules/nrf_hw_models",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/modules/bsim_hw_models/nrf_hw_models"
+				},
+				{
+					"build" : "zephyr/kernel",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/kernel",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "zephyr/cmake/flash",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/cmake/flash",
+					"targetIndexes" : 
+					[
+						6,
+						9,
+						10,
+						14,
+						32
+					]
+				},
+				{
+					"build" : "zephyr/cmake/usage",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/cmake/usage",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "zephyr/cmake/reports",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "/mnt/sda/nRF_Connect_SDK/ncs/zephyr/cmake/reports",
+					"targetIndexes" : 
+					[
+						29,
+						30
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81
+					],
+					"name" : "Zephyr-Kernel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						62
+					],
+					"name" : "civetweb",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 64,
+					"id" : "..__modules__hal__nordic::@c62a90c0fa1372ada557",
+					"jsonFile" : "target-..__modules__hal__nordic-Debug-39d8404b39d4889a4682.json",
+					"name" : "..__modules__hal__nordic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app-Debug-4b61a6f48a4bfb552dd2.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "arch__arm__core__aarch32::@131175bec2aca1783c40",
+					"jsonFile" : "target-arch__arm__core__aarch32-Debug-d356549741d61f5b7307.json",
+					"name" : "arch__arm__core__aarch32",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "arch__arm__core__aarch32__cortex_m::@046adc49fa773f8f21c3",
+					"jsonFile" : "target-arch__arm__core__aarch32__cortex_m-Debug-f81af529ea39a3f0a02d.json",
+					"name" : "arch__arm__core__aarch32__cortex_m",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "arch__arm__core__aarch32__cortex_m__mpu::@c48200944334c285b112",
+					"jsonFile" : "target-arch__arm__core__aarch32__cortex_m__mpu-Debug-5d178301b7aa284a1266.json",
+					"name" : "arch__arm__core__aarch32__cortex_m__mpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "arch__common::@0b0b0cfd7a24e8ecfe11",
+					"jsonFile" : "target-arch__common-Debug-bbd8b59368be778babf9.json",
+					"name" : "arch__common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "attach::@a247f7a48b0aa9995de3",
+					"jsonFile" : "target-attach-Debug-072f81437ebb533e7854.json",
+					"name" : "attach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "code_data_relocation_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-code_data_relocation_target-Debug-24972378ea417007601d.json",
+					"name" : "code_data_relocation_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config-sanitycheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config-sanitycheck-Debug-aa63f95289c4df9c4a71.json",
+					"name" : "config-sanitycheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "debug::@a247f7a48b0aa9995de3",
+					"jsonFile" : "target-debug-Debug-034f59fc2477524bd695.json",
+					"name" : "debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "debugserver::@a247f7a48b0aa9995de3",
+					"jsonFile" : "target-debugserver-Debug-020c5ba336fe6888228b.json",
+					"name" : "debugserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "driver_validation_h_target::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-driver_validation_h_target-Debug-188166112c61348d8a3e.json",
+					"name" : "driver_validation_h_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "drivers__gpio::@f8009383a952b2e6d5b0",
+					"jsonFile" : "target-drivers__gpio-Debug-2b8d54ae7a843a942319.json",
+					"name" : "drivers__gpio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "drivers__serial::@18e421c5ba74f72aaba5",
+					"jsonFile" : "target-drivers__serial-Debug-e235ec57c5c1ea1b0cb8.json",
+					"name" : "drivers__serial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "flash::@a247f7a48b0aa9995de3",
+					"jsonFile" : "target-flash-Debug-cbd672fd464c8dbf3d9a.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "guiconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-guiconfig-Debug-f8c897d8b64c691c5a0c.json",
+					"name" : "guiconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hardenconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hardenconfig-Debug-efc5889767ed63f64073.json",
+					"name" : "hardenconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "kernel::@84e783bf488a9f887759",
+					"jsonFile" : "target-kernel-Debug-528f7ec056f83eb45ca8.json",
+					"name" : "kernel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kobj_types_h_target::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-kobj_types_h_target-Debug-aef899f74612b34b0440.json",
+					"name" : "kobj_types_h_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib__libc__minimal::@3b54d4ee2bcd1c296168",
+					"jsonFile" : "target-lib__libc__minimal-Debug-40267662d3d6d7ccc459.json",
+					"name" : "lib__libc__minimal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "lib__posix::@8d3cddd8f0156878d5c8",
+					"jsonFile" : "target-lib__posix-Debug-b8b353190fc145940456.json",
+					"name" : "lib__posix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "linker_pass_final_script_target::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-linker_pass_final_script_target-Debug-d085dd1a5af6b800a1ed.json",
+					"name" : "linker_pass_final_script_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "linker_script_target::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-linker_script_target-Debug-7bb07295f21ee0b5d5ea.json",
+					"name" : "linker_script_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "menuconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-menuconfig-Debug-1082c5f988dcaf127f1b.json",
+					"name" : "menuconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "offsets::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-offsets-Debug-2b6054b7e4cfe54ae447.json",
+					"name" : "offsets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "offsets_h::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-offsets_h-Debug-4a94cc4816f4fb6a81a5.json",
+					"name" : "offsets_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_syscalls_target::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-parse_syscalls_target-Debug-6440fcda78c9119eca9b.json",
+					"name" : "parse_syscalls_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "partition_manager_report::@cddba865d6a10e3ca346",
+					"jsonFile" : "target-partition_manager_report-Debug-70ef539f25d68ce528e9.json",
+					"name" : "partition_manager_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pristine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pristine-Debug-210f204d6bb85a423eea.json",
+					"name" : "pristine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "ram_report::@ca7f08113abe6c9ed8d3",
+					"jsonFile" : "target-ram_report-Debug-086d0f9c7a2cc7c3d532.json",
+					"name" : "ram_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "rom_report::@ca7f08113abe6c9ed8d3",
+					"jsonFile" : "target-rom_report-Debug-1ccbfb14f42c2d5c064e.json",
+					"name" : "rom_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "run::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-run-Debug-09a3b5a919d32bd5ff77.json",
+					"name" : "run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "runner_yml_props_target::@a247f7a48b0aa9995de3",
+					"jsonFile" : "target-runner_yml_props_target-Debug-7b65eabb2a8418cc08a5.json",
+					"name" : "runner_yml_props_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "soc__arm__common__cortex_m::@31fa8b46182c464e0cd2",
+					"jsonFile" : "target-soc__arm__common__cortex_m-Debug-73d0b7f888174288d720.json",
+					"name" : "soc__arm__common__cortex_m",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "soc__arm__nordic_nrf__nrf52::@4563f0f8cf1036a1c0d5",
+					"jsonFile" : "target-soc__arm__nordic_nrf__nrf52-Debug-73bad81f91d9a81d2503.json",
+					"name" : "soc__arm__nordic_nrf__nrf52",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "syscall_list_h_target::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-syscall_list_h_target-Debug-7e8f86d5837a3939d64c.json",
+					"name" : "syscall_list_h_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "usage::@94b61706647a07df483a",
+					"jsonFile" : "target-usage-Debug-0a3ada415eaf25805e17.json",
+					"name" : "usage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zephyr::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-zephyr-Debug-d8937b712facf0f2c870.json",
+					"name" : "zephyr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zephyr_final::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-zephyr_final-Debug-f45fca5e4ed356f8b570.json",
+					"name" : "zephyr_final",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zephyr_generated_headers::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-zephyr_generated_headers-Debug-5bee5756eab72927f570.json",
+					"name" : "zephyr_generated_headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zephyr_prebuilt::@d36e55b69c1b90fb26b2",
+					"jsonFile" : "target-zephyr_prebuilt-Debug-c89a82f52419dce20d62.json",
+					"name" : "zephyr_prebuilt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zephyr_property_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zephyr_property_target-Debug-65abac9a23d47eb1f6fd.json",
+					"name" : "zephyr_property_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chris/Projects/Embedded/Zephyr_nRF52_Empty/build",
+		"source" : "/home/chris/Projects/Embedded/Zephyr_nRF52_Empty"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
