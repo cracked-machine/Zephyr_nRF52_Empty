@@ -7,9 +7,9 @@ Copy your source files into `src` and add the required KConfig options into `prj
 - You must have a Zephyr repository somewhere on your PC. However, `West` is not required to build/run/debug this project.
 - ZEPHYR_BASE, BOARD and CONF_FILE are set locally in the CMakeLists.txt file.
 - Building: [CMake](https://code.visualstudio.com/docs/cpp/cmake-linux)/[Ninja](https://ninja-build.org/).
-- Debug: JLinkGDBServerCLExe (`.vscode/launch.json`) and [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
-- Terminal I/O: JLinkRTTClient (run in terminal before starting debugger)
-- Direct flash program: JLinkExe (`jlink/flash.sh`).
+- Debug: [JLinkGDBServerCLExe](https://www.segger.com/products/debug-probes/j-link/tools/j-link-gdb-server/about-j-link-gdb-server/) (`.vscode/launch.json`) and [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
+- Terminal I/O: [JLinkRTTClient](https://www.segger.com/products/debug-probes/j-link/technology/about-real-time-transfer/) (run in terminal before starting debugger)
+- Direct flash program: [JLinkExe](https://www.segger.com/products/debug-probes/j-link/tools/j-link-commander/) (`jlink/flash.sh`).
 
 Note, RTT monitor config in `CMakeLists.txt` and `jlink/jlink_rtt.conf`. More info: [Serial output with JLinkRTTClient on the nRF52-DK with Zephyr](https://bitshiftjo.cluster026.hosting.ovh.net/2020/10/03/serial-output-with-jlinkrttclient-on-the-nrf52-dk-with-zephyr/)
 
