@@ -1,6 +1,6 @@
 ### Blinky example for nRF52/Zephyr using CMake/GNU/J-Link + VSCode/CortexDebug
 
-This example is a template VSCode project using Zephyr RTOS for [nRF52832](https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52-DK) devices [*outside* of the Zephyr repo tree](https://docs.zephyrproject.org/1.13.0/application/application.html). 
+This example is a template VSCode project demonstrating how to develop application using Zephyr RTOS for [nRF52832](https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52-DK) devices [*outside* of the Zephyr repo tree](https://docs.zephyrproject.org/1.13.0/application/application.html). 
 
 Copy your source files into `src` and add the required [KConfig](https://docs.zephyrproject.org/latest/reference/kconfig/index.html) options into `prj.conf`.
 
